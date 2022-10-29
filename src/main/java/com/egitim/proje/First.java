@@ -27,6 +27,7 @@ public class First {
 
         System.out.println("bu satır olsa da olur olmasada olur.");
         System.out.println("bu satır başka bir geliştirme");
+        System.out.println("bu kod yeni geldi");
 
     }
 
