@@ -23,6 +23,7 @@ public class First {
 
         System.out.println("bu satırı ben yeni bir branchte yazıyorum.");
         System.out.println("bu satırın 25. satırda olması kesinlikle gerekli.");
+        System.out.println("bu satırın 26. satırda olması kesinlikle gerekli.");
 
 
     }
