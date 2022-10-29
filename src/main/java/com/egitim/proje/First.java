@@ -25,6 +25,8 @@ public class First {
         System.out.println("bu satırın 25. satırda olması kesinlikle gerekli.");
         System.out.println("bu satırın 26. satırda olması kesinlikle gerekli.");
 
+        System.out.println("bu satır olsa da olur olmasada olur.");
+        System.out.println("bu satır başka bir geliştirme");
 
     }
 
