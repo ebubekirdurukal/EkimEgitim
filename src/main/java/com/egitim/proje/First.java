@@ -18,6 +18,9 @@ public class First {
     public static void main(String[] args) {  // main kısayolu
         System.out.println("Merhaba Dünya");  // sout kısayolu
         System.out.println("bu da ikinci yazdığım kod");
+        System.out.println("bu da üçüncü yazdığım kod");
+
+
     }
 
 
