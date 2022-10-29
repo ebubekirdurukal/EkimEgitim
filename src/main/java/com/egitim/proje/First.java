@@ -30,6 +30,7 @@ public class First {
         System.out.println("bu kod yeni geldi");
         System.out.println("bu kod yeni geldi 2");
         System.out.println("ebubekir durukal bu kodu yazdı");
+        System.out.println("Nedim bu kodu yazdı");
 
     }
 
