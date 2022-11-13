@@ -10,10 +10,9 @@ public class First {
      */
 
     /**
+     * @param args Bu bir Javadoc yorum bölümüdür.
      * @date October 22nd 2022
      * @author Ebubekir Durukal
-     * @param args
-     * Bu bir Javadoc yorum bölümüdür.
      */
     public static void main(String[] args) {  // main kısayolu
 //        System.out.println("Merhaba Dünya");  // sout kısayolu
@@ -82,16 +81,37 @@ public class First {
 
         // int x, y, z; tavsiye edilmez.
 
+        // - ,*, /, %
+        int p1 = 3 - 5; // çıkarma p1 = -2
+        int p2 = 3 * 5; // çarpma p2 = 15
+        int p3 = 3 / 5;
+        System.out.println(p3); // 0 çünkü int tam sayı tutar
+        int p4 = 5 % 3; // mod, kalan
+        System.out.println(p4);
+        // p4 = 2;
+
+        // ++, --
+
+        int p5 = p4++; // int p5 = p4 + 1;
+        int y1 = 5;
+        System.out.println(y1++); // bu satır çalıştıktan sonra 1 artırır.
+        // y1 = 6
+        System.out.println(y1--); // y1-- = y1 - 1;
+        System.out.println(y1);
 
 
-        System.out.println(p);
+        int r1 = 9;
+        System.out.println(++r1); // önce 1 artırır sonra diğer işlemleri yapar.
+        System.out.println(--r1); // önce 1 artırır sonra diğer işlemleri yapar.
 
+        // +=, -=, *=, /=
 
-
+        int xy = 4;
+        xy += 5; // xy = xy + 5;
+        System.out.println(xy);
 
 
     }
-
 
 
 }
