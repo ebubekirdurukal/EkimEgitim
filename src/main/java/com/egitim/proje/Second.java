@@ -55,45 +55,56 @@ public class Second {
 
 
         // else-if
-        int not = 75;
-        if (not >= 85 && not <= 100) {
-            System.out.println("Tebrikler, A aldınız.");
-        } else if (not < 85 && not >= 75) {
-            System.out.println("B aldınız");
-        } else if (not < 75 && not >= 65) {
-            System.out.println("C aldınız");
-        }
+//        int not = 75;
+//        if (not >= 85 && not <= 100) {
+//            System.out.println("Tebrikler, A aldınız.");
+//        } else if (not < 85 && not >= 75) {
+//            System.out.println("B aldınız");
+//        } else if (not < 75 && not >= 65) {
+//            System.out.println("C aldınız");
+//        }
 
 
         // switch-case
-        int deger = 1345;
-
-        if (deger == 3) {
-            System.out.println("Deger 3'tür");
-        } else if (deger == 2) {
-            System.out.println("Deger 2'dir");
-        } else if (deger == 1) {
-            System.out.println("Deger 1'dir");
-        } else {
-            System.out.println("başka bir değer");
-        }
-
-
-        switch (deger) {
-            case 1:
-                System.out.println("Deger 1'dir");
-                break;
-            case 2:
-                System.out.println("Deger 2'dir");
-                break;
-            case 3:
-                System.out.println("Deger 3'tür");
-                break;
-            default:
-                System.out.println("başka bir değer");
-                break;
-        }
+//        int deger = 1345;
+//
+//        if (deger == 3) {
+//            System.out.println("Deger 3'tür");
+//        } else if (deger == 2) {
+//            System.out.println("Deger 2'dir");
+//        } else if (deger == 1) {
+//            System.out.println("Deger 1'dir");
+//        } else {
+//            System.out.println("başka bir değer");
+//        }
+//
+//
+//        switch (deger) {
+//            case 1:
+//                System.out.println("Deger 1'dir");
+//                break;
+//            case 2:
+//                System.out.println("Deger 2'dir");
+//                break;
+//            case 3:
+//                System.out.println("Deger 3'tür");
+//                break;
+//            default:
+//                System.out.println("başka bir değer");
+//                break;
+//        }
         // switch case alt alta if else'ler ile nerdeyse aynı şeydir. Tek fark olarak bulunan değere direkt gider.
+
+        // Tenary operator
+        int not = 20;
+        boolean sonuc = true;
+        if (not < 50) {
+            sonuc = false;
+        } else {
+            sonuc = true;
+        }
+
+        sonuc = not < 50 ? false : true;
     }
 }
 
