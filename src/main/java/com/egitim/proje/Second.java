@@ -46,7 +46,8 @@ public class Second {
 //        if (hesaptakiPara < gondermekIstediğimMiktar && bankOpen == true) {
 //            System.out.println("Yeterli bakiyeniz bulunmamaktadır.");
 //        }
-//        if ((hesaptakiPara > gondermekIstediğimMiktar) && (bankOpen) && (suankiSaat <= kapanisSaati) && (suankiSaat >= acilisSaati)) {
+//        boolean calismaSaatinde = (suankiSaat <= kapanisSaati) && (suankiSaat >= acilisSaati);
+//        if ((hesaptakiPara > gondermekIstediğimMiktar) && (bankOpen) && (calismaSaatinde)) {
 //            System.out.println("Para gönderebilirsiniz.");
 //        }
 //        if (bankOpen) {
@@ -98,11 +99,15 @@ public class Second {
         // Tenary operator
         int not = 20;
         boolean sonuc = true;
+
         if (not < 50) {
             sonuc = false;
         } else {
             sonuc = true;
         }
+
+        // eğer sadece bir tane if else im varsa ve bu if else içerisinde bir değişkene atama yapılıyorsa
+        // tenary operatör kullanılabilir. Tenary operatörün performansı if-else ile aynıdır.
 
         sonuc = not < 50 ? false : true;
     }

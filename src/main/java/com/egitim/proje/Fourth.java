@@ -5,12 +5,14 @@ public class Fourth {
         int a = 5;
         Student std1 = new Student(); // Student class'ından bir instance yarattım.
         // new keyword'ü değişkeni memory'e kaydeder.
-        std1.ad = "Ebubekir";
-        std1.soyad = "Durukal";
+        //std1.ad = "Ebubekir";
+        //std1.soyad = "Durukal";
         //std1.okulNo = 156;
+        std1.setAd("Ebubekir");
+        std1.setSoyad("Durukal");
         std1.setOkulNo(156); // artık böyle yapacağız
 
-        System.out.println("Öğrencinin adı: " + std1.ad);
+        System.out.println("Öğrencinin adı: " + std1.getAd());
 
         Student std2 = null;       // null değeri vardır.
         //System.out.println(std2.ad);
@@ -31,8 +33,8 @@ public class Fourth {
         Student nedim = new Student();
         // nedim.okulNo = 12;
         nedim.setOkulNo(12);
-        nedim.ad = "Nedim";
-        nedim.soyad = "Temel";
+        nedim.setAd("Nedim");
+        nedim.setSoyad("Temel");
         nedim.okul = okl;
 
         Student nedim2 = new Student("nedim", "Temel", 12, okl);

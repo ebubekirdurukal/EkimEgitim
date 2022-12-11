@@ -11,7 +11,7 @@ public class Third {
 
         // enhanced for loop
         for(int i : arr){
-            System.out.println(i);
+            //System.out.println(i);
         }
 
 //        for(;;){
@@ -19,12 +19,26 @@ public class Third {
 //        }
 
         // çarpım tablosu yazdırma
-//        for(int i = 1; i <= 10; i++){
-//            for(int j = 1; j <= 10; j++){
-//                System.out.print(i * j + " - ");
-//            }
-//            System.out.println();
-//        }
+        /*
+            1 2 3 4 5 .... 10
+            2 4 6 8 10 ....20
+            ..
+            ..
+            ..
+            9 18 27 ......90
+            10 20 30 .... 100
+         */
+        /*
+            1. initialization
+            2. finish check
+            3. increment
+         */
+        for(int j = 1; j < 11; j++) {
+            for (int i = 1; i < 11; i++) {
+                System.out.print(i * j + "  ");
+            }
+            System.out.println();
+        }
 
         // Star-tree practice
 
@@ -105,7 +119,7 @@ public class Third {
         // do-while
         int b = 1;
         do {
-            System.out.println(b); // ne olursa olsun en az 1 kez çalışır
+            //System.out.println(b); // ne olursa olsun en az 1 kez çalışır
             b++;
         } while (b <= 10);
     }

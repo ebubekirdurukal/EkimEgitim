@@ -35,7 +35,7 @@ public class Methods {
     // bir öğrencinin ismini yazdıran bir method yazınız.
 
     public String isimYazdir(Student student) {
-        return student.ad;
+        return student.getAd();
     }
 
     // üç sayının ortalamasını bulan bir metod yazınız

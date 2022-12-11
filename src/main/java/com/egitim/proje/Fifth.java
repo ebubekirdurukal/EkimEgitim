@@ -36,7 +36,7 @@ public class Fifth {
         // somut olan instance'lar yaratmalıyız.
         System.out.println(Student.meslek);
         Student s1 = new Student();
-        s1.ad = "ali";
+        s1.setAd("ali");
         //System.out.println(Student.);
 
     }

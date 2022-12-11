@@ -2,11 +2,15 @@ package com.egitim.proje;
 
 public class Student {
 
-    public String ad;          // objenin özellikleri(fields)
-    public String soyad;       // bu field'lar öğrenciden öğprenciye değiştiği için static tanımlamıyoruz.
+    private String ad;          // objenin özellikleri(fields)
+
+    private String takmaAd;
+    private String soyad;       // bu field'lar öğrenciden öğprenciye değiştiği için static tanımlamıyoruz.
     private int okulNo;
 
     static String meslek = "Ogrenci"; // Mesle field'ı ise tüm öğrenciler için aynı olacağından static tanımlarım.
+
+    Okul okul; // objelerin kompozisyonu
 
 
     public String getAd() {
@@ -50,7 +54,7 @@ public class Student {
     }
 
 
-    Okul okul; // objelerin kompozisyonu
+
 
     public Student() { // constructor. Bir nesneden instance yaratılmasının yolu bu metoddur.(İnşa eden metod)
     }
