@@ -2,7 +2,7 @@ package com.egitim.proje;
 
 public class Fourth {
     public static void main(String[] args) {
-        int a = 5;
+        int a = 5; // primitive tipte bir instance
         Student std1 = new Student(); // Student class'ından bir instance yarattım.
         // new keyword'ü değişkeni memory'e kaydeder.
         //std1.ad = "Ebubekir";
@@ -11,6 +11,9 @@ public class Fourth {
         std1.setAd("Ebubekir");
         std1.setSoyad("Durukal");
         std1.setOkulNo(156); // artık böyle yapacağız
+
+        Student.meslek = "Student"; // static değişkenlere erişmek için bir nesne yaratmam gerekmez. Direkt
+        // sınıf üzerinden erişebilirim.
 
         System.out.println("Öğrencinin adı: " + std1.getAd());
 
