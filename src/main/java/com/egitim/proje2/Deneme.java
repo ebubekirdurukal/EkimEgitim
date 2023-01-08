@@ -4,6 +4,7 @@ import com.egitim.proje.Student;
 
 public class Deneme {
     public static void main(String[] args) {
-        Student student = new Student();
+        Examples examples = new Examples();
+        examples.divide(20, 5);
     }
 }
