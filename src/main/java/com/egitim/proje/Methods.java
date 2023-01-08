@@ -9,7 +9,7 @@ public class Methods {
     // metodlar Java'da bir sınıfın yeteneklerini belirleyen ve iş yapan kod parçalarıdır.
     // diğer dillerde fonksiyon diye de geçer
 
-    // ilk ifade (int) metodun dönüş tipidir. Parantez içerisinde ise
+    // ilk ifade (int) metodun dönüş tipidir(çıktı tipi). Parantez içerisinde ise
     // metod parametreleri belirtilir.(İnputlar). İstediğimiz kadar ve 0 parametre koyabiliriz.
     // Not: Çok fazla parametreli metod yazmak kodun okunurluğunu azaltır.
     /*
@@ -21,7 +21,8 @@ public class Methods {
             5. süslü parantez içerisinde method gövdesi yazılır.(Method body)
      */
     public int topla(int x, int y) {
-        return x + y;
+        int sonuc  =  x + y;
+        return sonuc;
     }
 
     public int cikar(int x, int y) {
@@ -41,21 +42,35 @@ public class Methods {
     // üç sayının ortalamasını bulan bir metod yazınız
 
     public int ortalamaDondur(int a, int b, int c) {
-        return (a + b + c) / 3;
+        int toplam = a + b + c;
+        int sonuc = toplam / 3;
+        return sonuc;
+        //int y = 5; return 'den sonra yeni bir kod yazamayız.
     }
 
     // iki sayıdan en büyük olanı yazdıran bir metod yazınız
-    public int maxNumber(int a, int b) {
+    public int findMaximum(int a, int b) {
         if (a > b) {
             return a;
-        } else {
+        } else if (b > a){
             return b;
+        } else {
+            return 0;
+        }
+    }
+    public void findMaximum2(int a, int b) {
+        if (a > b) {
+            System.out.println(a);
+        } else if (b > a){
+            System.out.println(b);
+        } else {
+            System.out.println("ikisi eşittir");
         }
     }
 
     // iki sayıdan en küçük olanı yazdıran bir metod yazınız
     public int minNumber(int a, int b){
-        return Math.min(a,b);
+        return Math.min(a,b); // eğer min() metodu static olmasaydı bu şekilde çağıramazdım. Önce bir nesne yaratmam gerekirdi.
     }
 
     // istenilen uzunlukta ağaç çizdiren bir metod yazınız

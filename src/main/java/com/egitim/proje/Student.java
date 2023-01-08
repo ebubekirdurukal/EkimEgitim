@@ -54,6 +54,13 @@ public class Student {
     }
 
 
+    /*
+    Constructor metodları istisna bir metod tipidir.
+    Dönüş tipi bulunmaz ve Metod ismi sınıf ismiyle aynı olmalıdır.
+    Eğer bir sınıfta hiç constructor yok ise java parametresiz bir constructor arka planda otomatik yaratır.
+    Ama eğer biz bir constructor metodu yazarsak, java artık o işi bize bırakır ve otomatik bir
+    constructor metodu arka planda oluşturmaz
+     */
 
 
     public Student() { // constructor. Bir nesneden instance yaratılmasının yolu bu metoddur.(İnşa eden metod)
@@ -67,8 +74,8 @@ public class Student {
     }
 
     // objenin fonksiyonu(yeteneği)
-    public static void calis(){
-        System.out.println("Ders calisiyorum.");
+    public void calis(){
+        System.out.println("Benim adım:" + this.getAd() + ", ben ders calisiyorum.");
     }
 
 }

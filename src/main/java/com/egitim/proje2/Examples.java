@@ -5,6 +5,11 @@ public class Examples {
     /*
         1. Write a Java method to divide two numbers and print on the screen.
      */
+    void divide(int a, int b){
+        double sonuc = a/b;
+        System.out.println(sonuc);
+    }
+
 
     /*
         2. Write a Java method that takes two numbers from user and display the product of two numbers.(Scanner)
