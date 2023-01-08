@@ -13,9 +13,13 @@ public class Deneme {
         int input1 = scanner.nextInt();
         System.out.println("Lütfen bir sayı daha giriniz");
         int input2 = scanner.nextInt();
-        examples.multiply(input1 ,input2);
+        /*examples.multiply(input1 ,input2);
 
-        examples.divide(20, 5);
+        examples.divide(20, 5);*/
+
+        examples.compare(input1 ,input2);
+
+
 
     }
 }

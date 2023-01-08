@@ -5,8 +5,8 @@ public class Examples {
     /*
         1. Write a Java method to divide two numbers and print on the screen.
      */
-    void divide(int a, int b){
-        double sonuc = a/b;
+    void divide(int a, int b) {
+        double sonuc = a / b;
         System.out.println(sonuc);
     }
 
@@ -22,6 +22,15 @@ public class Examples {
     /*
         3. Write a Java method to compare two numbers.
      */
+
+    void compare(int a, int b) {
+        if (a > b) {
+            System.out.println(a + " büyüktür " + b);
+        }
+        else {
+            System.out.println(b + " büyüktür " + a);
+        }
+    }
 
 
     /*
