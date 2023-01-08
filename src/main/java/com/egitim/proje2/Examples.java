@@ -9,7 +9,10 @@ public class Examples {
     /*
         2. Write a Java method that takes two numbers from user and display the product of two numbers.(Scanner)
      */
-
+    void multiply(int a, int b) {
+        int sonuc = a * b;
+        System.out.println("Sonucunuz = " + sonuc);
+    }
 
     /*
         3. Write a Java method to compare two numbers.
