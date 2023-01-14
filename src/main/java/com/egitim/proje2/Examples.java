@@ -48,7 +48,13 @@ public class Examples {
     /*
          5. Write a program to calculate the sum of first 10 natural number.
     */
-
+    void sum(int input1) {
+        int sum = 0;
+        for (int i = 0; i <= input1; i++) {
+            sum = sum + i;
+        }
+        System.out.println(sum);
+    }
 
     /*
         6. Write a Java program to test if the first and the last element of an array of integers are same. The length of the array must be greater than or equal to 2.

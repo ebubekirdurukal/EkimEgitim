@@ -17,10 +17,14 @@ public class Deneme {
 //
 //        examples.divide(20, 5);*/
         //      examples.compare(input1 ,input2);
+//        System.out.println("Lütfen bir sayı giriniz");
+//        Scanner scanner = new Scanner(System.in);
+//        int input1 = scanner.nextInt();
+//        examples.printOddNumbers(input1);
         System.out.println("Lütfen bir sayı giriniz");
         Scanner scanner = new Scanner(System.in);
         int input1 = scanner.nextInt();
-        examples.printOddNumbers(input1);
+        examples.sum(input1);
     }
 }
 
