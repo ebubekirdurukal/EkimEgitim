@@ -45,6 +45,9 @@ public class Examples {
     }
 
 
+
+
+
     /*
          5. Write a program to calculate the sum of first 10 natural number.
     */
@@ -59,7 +62,17 @@ public class Examples {
     /*
         6. Write a Java program to test if the first and the last element of an array of integers are same. The length of the array must be greater than or equal to 2.
     */
+    void checkArray(int[] list1) {
 
+        if (list1[0] == list1[list1.length-1]){
+            System.out.println("İlk ve son elemanlar esittir.");
+        }
+        else {
+            System.out.println("İlk ve son elemanlar esit değildir.");
+        }
+
+
+    }
 
     /*
         7. Write a Java method to reverse a word.

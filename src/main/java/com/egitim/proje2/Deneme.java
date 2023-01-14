@@ -21,10 +21,13 @@ public class Deneme {
 //        Scanner scanner = new Scanner(System.in);
 //        int input1 = scanner.nextInt();
 //        examples.printOddNumbers(input1);
-        System.out.println("Lütfen bir sayı giriniz");
-        Scanner scanner = new Scanner(System.in);
-        int input1 = scanner.nextInt();
-        examples.sum(input1);
+//        System.out.println("Lütfen bir sayı giriniz");
+//        Scanner scanner = new Scanner(System.in);
+//        int input1 = scanner.nextInt();
+//        examples.sum(input1);
+        int[] list1 = {10, 8, 3, 1, 10};
+        examples.checkarray(list1);
+
     }
 }
 
