@@ -46,22 +46,23 @@ public class Examples {
 
 
     /*
-        5. Write a Java method to reverse a word.
-     */
+         5. Write a program to calculate the sum of first 10 natural number.
+    */
+
 
     /*
         6. Write a Java program to test if the first and the last element of an array of integers are same. The length of the array must be greater than or equal to 2.
-     */
+    */
 
 
     /*
-        7. Write a Java program to print the area and perimeter of a circle.
-     */
+        7. Write a Java method to reverse a word.
+    */
 
 
     /*
-         8. Write a program to calculate the sum of first 10 natural number.
-     */
+        8. Write a Java program to print the perimeter of a circle. (2*pi*r)
+    */
 
 
     /*
