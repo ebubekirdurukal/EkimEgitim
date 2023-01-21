@@ -26,7 +26,7 @@ public class Deneme {
 //        int input1 = scanner.nextInt();
 //        examples.sum(input1);
         int[] list1 = {10, 8, 3, 1, 10};
-        examples.checkarray(list1);
+        //examples.checkarray(list1);
 
     }
 }

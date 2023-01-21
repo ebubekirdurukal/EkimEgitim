@@ -71,7 +71,6 @@ public class Examples {
             System.out.println("İlk ve son elemanlar esit değildir.");
         }
 
-
     }
 
     /*
