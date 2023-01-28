@@ -25,10 +25,14 @@ public class Deneme {
 //        examples.sum(input1);
 //        int[] list1 = {10, 8, 3, 1, 10};
 //        //examples.checkarray(list1);
-        System.out.println("Lütfen bir kelime yazınız");
+//        System.out.println("Lütfen bir kelime yazınız");
+//        Scanner scanner = new Scanner(System.in);
+//        String input1 = scanner.next() ;
+//        System.out.println( examples.reverseWord(input1));
+                System.out.println("Lütfen bir sayı giriniz");
         Scanner scanner = new Scanner(System.in);
-        String input1 = scanner.next() ;
-        System.out.println( examples.reverseWord(input1));
+        int input1 = scanner.nextInt();
+        examples.perimeter(input1);
     }
 }
 

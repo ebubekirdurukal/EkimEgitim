@@ -89,7 +89,10 @@ public class Examples {
     /*
         8. Write a Java program to print the perimeter of a circle. (2*pi*r)
     */
-
+    void perimeter(int r) {
+        double sonuc = 2 * Math.PI * r;
+        System.out.println("Sonucunuz = " + sonuc);
+    }
 
     /*
           9. Two numbers are entered through the keyboard. Write a program to find the value of one number raised to the power of another.
