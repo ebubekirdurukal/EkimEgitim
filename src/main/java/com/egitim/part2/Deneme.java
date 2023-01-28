@@ -29,10 +29,17 @@ public class Deneme {
 //        Scanner scanner = new Scanner(System.in);
 //        String input1 = scanner.next() ;
 //        System.out.println( examples.reverseWord(input1));
-                System.out.println("Lütfen bir sayı giriniz");
+//                System.out.println("Lütfen bir sayı giriniz");
+//        Scanner scanner = new Scanner(System.in);
+//        int input1 = scanner.nextInt();
+//        examples.perimeter(input1);
+        System.out.println("Lütfen bir taban sayı giriniz");
         Scanner scanner = new Scanner(System.in);
         int input1 = scanner.nextInt();
-        examples.perimeter(input1);
+        System.out.println("Lütfen bir üs sayı giriniz");
+        int input2 = scanner.nextInt();
+        examples.PowerOfNumber(input1,input2);
+
     }
 }
 

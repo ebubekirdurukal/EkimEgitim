@@ -26,8 +26,7 @@ public class Examples {
     void compare(int a, int b) {
         if (a > b) {
             System.out.println(a + " büyüktür " + b);
-        }
-        else {
+        } else {
             System.out.println(b + " büyüktür " + a);
         }
     }
@@ -43,9 +42,6 @@ public class Examples {
             }
         }
     }
-
-
-
 
 
     /*
@@ -64,10 +60,9 @@ public class Examples {
     */
     void checkArray(int[] list1) {
 
-        if (list1[0] == list1[list1.length-1]){
+        if (list1[0] == list1[list1.length - 1]) {
             System.out.println("İlk ve son elemanlar esittir.");
-        }
-        else {
+        } else {
             System.out.println("İlk ve son elemanlar esit değildir.");
         }
 
@@ -98,7 +93,12 @@ public class Examples {
           9. Two numbers are entered through the keyboard. Write a program to find the value of one number raised to the power of another.
      */
 
+
+    void PowerOfNumber(int a, int b) {
+        double sonuc = Math.pow(a, b);
+        System.out.println("Sonucunuz = " + sonuc);
     /*
           10. Write a Java program to print the given array reversely.
      */
+    }
 }
