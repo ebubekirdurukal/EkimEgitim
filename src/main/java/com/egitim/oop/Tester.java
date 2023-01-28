@@ -31,4 +31,9 @@ public class Tester extends Employee implements Coder{
     public void kodla() {
         System.out.println("Qa kod yazıyor");
     }
+
+    @Override
+    public void research() {
+
+    }
 }
