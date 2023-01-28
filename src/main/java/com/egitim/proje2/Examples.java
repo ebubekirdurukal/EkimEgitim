@@ -77,6 +77,14 @@ public class Examples {
         7. Write a Java method to reverse a word.
     */
 
+    public String reverseWord(String word) {
+        StringBuilder reversed = new StringBuilder();
+        for (int i = word.length() - 1; i >= 0; i--) {
+            reversed.append(word.charAt(i));
+        }
+        return reversed.toString();
+    }
+
 
     /*
         8. Write a Java program to print the perimeter of a circle. (2*pi*r)

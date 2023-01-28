@@ -2,6 +2,7 @@ package com.egitim.proje2;
 
 import com.egitim.proje.Student;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Deneme {
@@ -25,9 +26,12 @@ public class Deneme {
 //        Scanner scanner = new Scanner(System.in);
 //        int input1 = scanner.nextInt();
 //        examples.sum(input1);
-        int[] list1 = {10, 8, 3, 1, 10};
-        //examples.checkarray(list1);
-
+//        int[] list1 = {10, 8, 3, 1, 10};
+//        //examples.checkarray(list1);
+        System.out.println("Lütfen bir kelime yazınız");
+        Scanner scanner = new Scanner(System.in);
+        String input1 = scanner.next() ;
+        System.out.println( examples.reverseWord(input1));
     }
 }
 
