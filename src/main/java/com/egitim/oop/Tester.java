@@ -1,6 +1,6 @@
 package com.egitim.oop;
 
-public class Tester extends Employee{
+public class Tester extends Employee implements Coder{
 
     private String specialization;
 
@@ -25,5 +25,10 @@ public class Tester extends Employee{
 
     public void setFavouriteTestTool(String favouriteTestTool) {
         this.favouriteTestTool = favouriteTestTool;
+    }
+
+    @Override
+    public void kodla() {
+        System.out.println("Qa kod yazıyor");
     }
 }

@@ -13,11 +13,16 @@ public class Inheritence {
 
         Developer developer = new Developer();
         developer.setName("Nedim");
+
+        Employee e1 = new Employee();
         //developer.setFavouriteTestTool(); Yapamayız
         //Inheritence(Kalıtım) extends keyword'ü ile yapılır. Asıl amacı gereksiz tanımlardan kurtulmak ve sınıf hiyerarşisini oluşturmaktır.
         // Üst sınıflardaki metodlar alt sınıflarda override edilebilir. Metodu ezebiliriz.
         // Java'da bir sınıf sadece tek bir tane üst sınıfa sahip olabilir.(Extends deyip tek bir sınıf verebilirsiniz.)
         // Java'da class hiyerarşisinde en üstte Object sınıfı vardır. Her sınıf object sınıfından türer.
         // üst sınıflara superclass denir.
+
+
+       // Coder coder = new Coder();
     }
 }

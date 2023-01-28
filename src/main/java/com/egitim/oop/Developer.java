@@ -1,6 +1,6 @@
 package com.egitim.oop;
 
-public class Developer extends Employee{
+public class Developer extends Employee implements Coder, Reader{
 
     private String specialization;
 
@@ -24,5 +24,20 @@ public class Developer extends Employee{
 
     public void setFavouriteLanguage(String favouriteLanguage) {
         this.favouriteLanguage = favouriteLanguage;
+    }
+
+    @Override
+    public void kodla() {
+        System.out.println("Developer kodluyor");
+    }
+
+    @Override
+    public void research() {
+        System.out.println("ChatpGPT ile araştırma yapıyorum");
+    }
+
+    @Override
+    public void read() {
+
     }
 }

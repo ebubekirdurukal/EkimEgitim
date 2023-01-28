@@ -1,0 +1,36 @@
+ OOP
+=====
+
+- ENCAPSULATION(kapsülleme)
+------------------------
+* Access modifier lar ile yapılır(private protected default public)
+* fieldlarımıza ve metodlarımıza kontrollü erişim imkanı verir.
+* getter setter metodları kullanılır.
+
+- INHERITENCE(kalıtım)
+------------------------
+* extends keyword'ü kullanılır.
+* Alt sınıf- üst sınıf ilişkisi kurar
+* kod tekrarını azaltır ve sınıfları daha iyi organize etmemizi sağlar.
+* her sınıf sadece kendisinde bulunan özellikleri taşır. Diğer sınıflarla paylaştığı özellikleri üst sınıftan alır.
+* her sınıf sadece bir super class'a sahip olabilir.(direkt olarak)
+
+
+- ABSTRACTION(soyutlama)
+----------------------------
+* interface ve abstract class'larla yapılır.
+
+interface'lerde:
+ * implemantasyonu gizlemeye yarar.
+ * implements keyword'ü ile kullanılır.
+ * new keyword'ü ile nesne yaratılamaz.
+ * bir sınıf birden fazla interface'i implement edebilir.
+
+abstract class'larda:
+ * implemantasyonu gizlemeye yarar.
+ * extends keyword'ü ile kullanılır.
+ * new keyword'ü ile nesne yaratılamaz.
+ * bir sınıf birden fazla abstract class'ı extends edemez.
+
+
+- POLYMOPHISIM(çok şekillilik)
