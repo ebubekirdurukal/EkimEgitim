@@ -1,4 +1,4 @@
-package com.egitim.proje;
+package com.egitim.part1;
 
 public class Fifth {
     public static void main(String[] args) {

@@ -1,8 +1,5 @@
-package com.egitim.proje2;
+package com.egitim.part2;
 
-import com.egitim.proje.Student;
-
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Deneme {

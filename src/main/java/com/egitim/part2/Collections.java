@@ -1,6 +1,6 @@
-package com.egitim.proje2;
+package com.egitim.part2;
 
-import com.egitim.proje.Student;
+import com.egitim.part1.Student;
 
 import java.util.ArrayList;
 import java.util.List;

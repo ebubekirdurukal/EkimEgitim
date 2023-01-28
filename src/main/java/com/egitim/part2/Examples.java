@@ -1,4 +1,4 @@
-package com.egitim.proje2;
+package com.egitim.part2;
 
 public class Examples {
 

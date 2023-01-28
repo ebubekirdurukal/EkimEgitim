@@ -1,4 +1,4 @@
-package com.egitim.proje;
+package com.egitim.part1;
 
 public class StarTree {
     public static void main(String[] args) {
